@@ -1,0 +1,140 @@
+body{
+    background-color:#393E46;
+    text-align:center;
+    padding-top:20px;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: #4ECCA3;
+    font-size:8rem;
+    text-shadow: 5px 0 #232931;
+    display: inline;
+}
+
+h1:hover{
+    text-shadow: 5px 0 #1a1717;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h3{
+    text-align: left;
+}
+
+p{
+    font-family: 'Indie Flower', cursive;;
+    color: #4ECCA3;   
+    font-size:2.2rem;
+    margin-bottom: 35px;
+}
+
+
+
+footer{
+    padding-top:5%;
+    color: #EEEEEE;
+    font-family: 'Indie Flower', cursive;
+}
+
+.row{
+    margin-top:4%;
+    padding: 0 25%;
+}
+
+.dice-img{
+    width:80%;
+}
+
+.visible{
+    visibility: hidden!important;
+}
+
+.trophy-img1{
+    padding-right: 25px;
+}
+
+.trophy-img2{
+    padding-left: 35px;
+}
+
+.mybutton {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #26292d;
+    font-family: Open Sans;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #4ECCA3;
+    text-decoration: none;
+    cursor: pointer;
+    width: 174px;
+    margin-left: 20px;
+    font-family: 'Open Sans', cursive;
+    
+    }
+    
+    .mybutton:hover {
+    background: rgb(69, 190, 150);
+    text-decoration: none;
+    color:#1e2024;
+    }
+
+
+
+
+
+    @media(max-width:767px){
+        h1{
+            font-size: 3.2rem;
+            
+        }
+        
+        .dice-img {
+            width:18%;
+            margin-left: 20px;
+        }
+
+        p{
+            display: inline-block;
+            font-size: 1.4rem;
+        }
+
+        .trophy-img1{
+            width: 18%;
+        }
+        .trophy-img2{
+            width: 18%;
+        }
+
+        .mybutton{
+            margin-bottom: 30px;
+        }
+
+        .row{
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .mybutton {
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            color: #26292d;
+            font-family: Open Sans;
+            font-size: 13px;
+            font-weight: 100;
+            padding: 8px;
+            background-color: #4ECCA3;
+            text-decoration: none;
+            cursor: pointer;
+            width: 107px;
+            margin-left: 20px;
+            font-family: 'Open Sans', cursive;
+            
+            }
+    }
